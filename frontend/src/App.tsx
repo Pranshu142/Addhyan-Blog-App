@@ -1,18 +1,21 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
-import FeedPage from "./pages/FeedPage";
+import { AuthProvider } from "./context/AuthContext";
 import HomePage from "./pages/HomePage";
+import FeedPage from "./pages/FeedPage";
+import Layout from "./components/Layout";
 
-const App: React.FC = () => {
+const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/:currentView" element={<Layout />}>
-          <Route index element={<FeedPage />} />
-        </Route>
-      </Routes>
-    </Router>
+    <AuthProvider>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<Layout />}>
+            <Route index element={<FeedPage />} />
+          </Route>
+        </Routes>
+      </Router>
+    </AuthProvider>
   );
 };
 
