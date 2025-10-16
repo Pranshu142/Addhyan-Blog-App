@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
     <div className="min-h-screen font-[Inter]">
       <NavBar />
 
-      <main>
+      <main className="bg-gray-500/10">
         <section id="hero-section-1" className="relative overflow-hidden  ">
           {/* Background gradient */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50   " />
@@ -69,6 +69,207 @@ const HomePage: React.FC = () => {
                   <Flame size={24} />
                   <span>Track Daily Streaks</span>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="features-section-2" className="relative py-20">
+          <div className="px-4 py-5 contianer mx-auto">
+            <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+              <h2 className="text-4xl md:text-5xl">
+                Everything You Need to Write Better
+              </h2>
+              <p className="text-xl text-zinc-500">
+                Powerful features designed to help you stay consistent and
+                engaged
+              </p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              <div className="px-5 py-3 border-2 border-zinc-500 rounded-2xl flex flex-col gap-4 items-start">
+                <div
+                  className="bg-gradient-to-b shadow-zinc-800 shadow-md from-zinc-600 
+                via-zinc-800 to-zinc-900 px-3 py-4 flex gap-2 rounded-xl items-center justify-center"
+                >
+                  <Flame
+                    size={32}
+                    color="#cf673a"
+                    strokeWidth={3.5}
+                    absoluteStrokeWidth
+                  />
+                  <span className="text-white font-bold text-2xl">7</span>
+                </div>
+                <div className="mt-5 space-y-4">
+                  <h2 className="text-3xl font-medium t">
+                    Daily Streak System
+                  </h2>
+                  <p className="text-lg text-gray-500 font-normal tracking-wide">
+                    Build consistency with our gamified streak tracking. Watch
+                    your flame grow as you engage daily and reach new
+                    milestones.
+                  </p>
+                </div>
+                <div className="flex flex-wrap mt-5 gap-4 items-center justify-start text-sm font-medium mb-5 ">
+                  <div className="px-2 py-1 bg-zinc-300 rounded-xl ">
+                    <h3>7 days → Yellow</h3>
+                  </div>
+                  <div className="px-2 py-1 bg-zinc-300 rounded-xl ">
+                    <h3>14 days → Orange</h3>
+                  </div>
+                  <div className="px-2 py-1 bg-zinc-300 rounded-xl ">
+                    <h3>30 days → Purpl</h3>
+                  </div>
+                </div>
+              </div>
+              <div className="px-5 py-3 border-2 border-zinc-500 rounded-2xl flex flex-col gap-4 items-start">
+                <div
+                  className="bg-gradient-to-b shadow-zinc-800 shadow-md from-zinc-600 
+                via-zinc-800 to-zinc-900 px-3 py-4 flex gap-2 rounded-xl items-center justify-center"
+                >
+                  <Flame
+                    size={32}
+                    color="#cf673a"
+                    strokeWidth={3.5}
+                    absoluteStrokeWidth
+                  />
+                  <span className="text-white font-bold text-2xl">7</span>
+                </div>
+                <div className="mt-5 space-y-4">
+                  <h2 className="text-3xl font-medium t">
+                    Daily Streak System
+                  </h2>
+                  <p className="text-lg text-gray-500 font-normal tracking-wide">
+                    Build consistency with our gamified streak tracking. Watch
+                    your flame grow as you engage daily and reach new
+                    milestones.
+                  </p>
+                </div>
+                <div className="flex flex-wrap mt-5 gap-4 items-center justify-start text-sm font-medium mb-5 ">
+                  <div className="px-2 py-1 bg-zinc-300 rounded-xl ">
+                    <h3>7 days → Yellow</h3>
+                  </div>
+                  <div className="px-2 py-1 bg-zinc-300 rounded-xl ">
+                    <h3>14 days → Orange</h3>
+                  </div>
+                  <div className="px-2 py-1 bg-zinc-300 rounded-xl ">
+                    <h3>30 days → Purpl</h3>
+                  </div>
+                </div>
+              </div>
+              <div className="px-5 py-3 border-2 border-zinc-500 rounded-2xl flex flex-col gap-4 items-start">
+                <div
+                  className="bg-gradient-to-b shadow-zinc-800 shadow-md from-zinc-600 
+                via-zinc-800 to-zinc-900 px-3 py-4 flex gap-2 rounded-xl items-center justify-center"
+                >
+                  <Flame
+                    size={32}
+                    color="#cf673a"
+                    strokeWidth={3.5}
+                    absoluteStrokeWidth
+                  />
+                  <span className="text-white font-bold text-2xl">7</span>
+                </div>
+                <div className="mt-5 space-y-4">
+                  <h2 className="text-3xl font-medium t">
+                    Daily Streak System
+                  </h2>
+                  <p className="text-lg text-gray-500 font-normal tracking-wide">
+                    Build consistency with our gamified streak tracking. Watch
+                    your flame grow as you engage daily and reach new
+                    milestones.
+                  </p>
+                </div>
+                <div className="flex flex-wrap mt-5 gap-4 items-center justify-start text-sm font-medium mb-5 ">
+                  <div className="px-2 py-1 bg-zinc-300 rounded-xl ">
+                    <h3>7 days → Yellow</h3>
+                  </div>
+                  <div className="px-2 py-1 bg-zinc-300 rounded-xl ">
+                    <h3>14 days → Orange</h3>
+                  </div>
+                  <div className="px-2 py-1 bg-zinc-300 rounded-xl ">
+                    <h3>30 days → Purpl</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="working-section-3" className="relative py-20">
+          <div className="px-4 py-5 contianer mx-auto">
+            <div className="mb-5 text-center space-y-5">
+              <h2 className="text-5xl font-medium ">How it Works</h2>
+              <p className="tracking-wider text-xl  text-gray-500">
+                Start writing and building your streak in three simple steps
+              </p>
+            </div>
+            <div className="flex items-center flex-col justify-center gap-8 mt-5 pt-10 text-center">
+              <div className="rounded-full  flex justify-center items-center bg-gradient-to-br from-blue-500  to-purple-600 w-16 h-16">
+                <h2 className="text-3xl font-bold text-white ">1</h2>
+              </div>
+              <div className="">
+                <h1 className="tracking-wider text-xl font-semibold text-gray-800">
+                  Create Your Account
+                </h1>
+              </div>
+              <div>
+                <p className="tracking-wider text-xl  text-gray-700">
+                  Sign up in seconds and customize your profile
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center flex-col justify-center gap-8 mt-5 pt-10 text-center">
+              <div className="rounded-full  flex justify-center items-center bg-gradient-to-br from-pink-500  to-orange-600 w-16 h-16">
+                <h2 className="text-3xl font-bold text-white ">2</h2>
+              </div>
+              <div className="">
+                <h1 className="tracking-wider text-xl font-semibold  text-gray-800">
+                  Write & Share
+                </h1>
+              </div>
+              <div>
+                <p className="tracking-wider text-xl  text-gray-700">
+                  Publish your thoughts and discover amazing content
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center flex-col justify-center gap-8 mt-5 pt-10 text-center">
+              <div className="rounded-full  flex justify-center items-center bg-gradient-to-br from-purple-500  to-pink-600 w-16 h-16">
+                <h2 className="text-3xl font-bold text-white ">3</h2>
+              </div>
+              <div className="">
+                <h1 className="tracking-wider text-xl font-semibold text-gray-800">
+                  Build Your streak
+                </h1>
+              </div>
+              <div>
+                <p className="tracking-wider text-xl  text-gray-700">
+                  Stay consistent and watch your streak flame grow
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="start-card-section-3" className="relative py-20">
+          <div className="px-4 py-5 contianer mx-auto0">
+            <div className=" flex flex-col items-center justify-center bg-gradient-to-br from-blue-500 via-pink-500 to-purple-500 px-3 py-2 rounded-2xl text-center space-y-5 pb-10 pt-16">
+              <div className="mb-5 text-center space-y-5">
+                <h2 className="text-5xl font-medium text-zinc-200 ">
+                  Ready to Start Your Journey?
+                </h2>
+                <p className="tracking-wider text-xl  text-gray-300">
+                  Join thousands of writers building daily habits and sharing
+                  their stories
+                </p>
+              </div>
+              <div>
+                <button className=" mb-5 gap-4 items-center font-bold  shadow-md bg-zinc-100 text-purple-600 flex text-lg  px-3 py-2 rounded-2xl  shadow-gray-700 ">
+                  Get Started Free
+                  <ArrowRight size={28} className="animate-pulse" />
+                </button>
+              </div>
+              <div>
+                <p className="tracking-wider text-xl  text-gray-300">
+                  No credit card required • Start writing in minutes
+                </p>
               </div>
             </div>
           </div>

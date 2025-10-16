@@ -1,12 +1,10 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="border-t py-12 bg-zinc-700/10">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg text-gray-700">BlogSphere</h3>
+            <h3 className="text-lg text-gray-700 font-semibold ">BlogSphere</h3>
             <p className="text-sm text-gray-500">
               Build your writing habit with daily streaks and an engaged
               community.
@@ -14,7 +12,7 @@ const Footer = () => {
           </div>
 
           <div className="space-y-4">
-            <h4 className="text-sm text-gray-700">Product</h4>
+            <h4 className="text-lg text-gray-700 font-semibold ">Product</h4>
             <ul className="space-y-2 text-sm text-gray-500 ">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
@@ -35,7 +33,7 @@ const Footer = () => {
           </div>
 
           <div className="space-y-4">
-            <h4 className="text-sm text-gray-700">Company</h4>
+            <h4 className="text-lg text-gray-700 font-semibold ">Company</h4>
             <ul className="space-y-2 text-sm text-gray-500 ">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
@@ -56,7 +54,7 @@ const Footer = () => {
           </div>
 
           <div className="space-y-4">
-            <h4 className="text-sm text-gray-700">Legal</h4>
+            <h4 className="text-lg text-gray-700 font-semibold ">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-500">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">

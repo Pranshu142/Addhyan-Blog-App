@@ -1,4 +1,3 @@
-import React from "react";
 import { User, LogIn, Flame } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
@@ -16,9 +15,10 @@ const NavBar: React.FC = () => {
           onClick={() => navigate("/")}
         >
           <Flame
-            className="text-primary fill-orange-200 stroke-1 stroke-red-500"
+            className="text-base fill-orange-200 stroke-1 stroke-red-500"
             size={28}
           />
+
           <h1 className="text-xl font-bold">Addhyan</h1>
         </div>
 
