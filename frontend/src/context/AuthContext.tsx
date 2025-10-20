@@ -21,7 +21,8 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   );
 };
 
-
+// custom hook for the user of the context privider
+//  it is  more cleaner and readable
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) throw new Error("useAuth must be used inside AuthProvider");

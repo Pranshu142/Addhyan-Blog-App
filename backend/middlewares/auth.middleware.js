@@ -1,4 +1,3 @@
-import User from "../models/user.model.js";
 import * as userService from "../services/user.service.js";
 import jwt from "jsonwebtoken";
 

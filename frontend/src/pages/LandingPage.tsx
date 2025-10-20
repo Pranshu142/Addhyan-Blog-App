@@ -5,7 +5,7 @@ import { Sparkles, ArrowRight, Users, BookOpen, Flame } from "lucide-react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
-const HomePage: React.FC = () => {
+const LandingPage: React.FC = () => {
   // const navigate = useNavigate();
 
   return (
@@ -302,4 +302,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default LandingPage;
